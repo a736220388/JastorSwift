@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F69E0621F4131F4001BA206 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69E0611F4131F4001BA206 /* AppDelegate.swift */; };
+		3F69E0641F4131F4001BA206 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69E0631F4131F4001BA206 /* ViewController.swift */; };
+		3F69E0671F4131F4001BA206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69E0651F4131F4001BA206 /* Main.storyboard */; };
+		3F69E0691F4131F4001BA206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F69E0681F4131F4001BA206 /* Assets.xcassets */; };
+		3F69E06C1F4131F5001BA206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69E06A1F4131F5001BA206 /* LaunchScreen.storyboard */; };
+		3F69E0771F4131F7001BA206 /* JastorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69E0761F4131F7001BA206 /* JastorSwiftTests.swift */; };
+		3F69E0821F4131F7001BA206 /* JastorSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69E0811F4131F7001BA206 /* JastorSwiftUITests.swift */; };
+		3F69E0901F4132CF001BA206 /* Jastor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69E08F1F4132CF001BA206 /* Jastor.swift */; };
+		3F69E0921F413A4C001BA206 /* JastorRuntimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69E0911F413A4C001BA206 /* JastorRuntimeHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F69E0731F4131F7001BA206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F69E0561F4131F4001BA206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F69E05D1F4131F4001BA206;
+			remoteInfo = JastorSwift;
+		};
+		3F69E07E1F4131F7001BA206 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F69E0561F4131F4001BA206 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F69E05D1F4131F4001BA206;
+			remoteInfo = JastorSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F69E05E1F4131F4001BA206 /* JastorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JastorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F69E0611F4131F4001BA206 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F69E0631F4131F4001BA206 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F69E0661F4131F4001BA206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F69E0681F4131F4001BA206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F69E06B1F4131F5001BA206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F69E06D1F4131F5001BA206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F69E0721F4131F7001BA206 /* JastorSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JastorSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F69E0761F4131F7001BA206 /* JastorSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JastorSwiftTests.swift; sourceTree = "<group>"; };
+		3F69E0781F4131F7001BA206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F69E07D1F4131F7001BA206 /* JastorSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JastorSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F69E0811F4131F7001BA206 /* JastorSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JastorSwiftUITests.swift; sourceTree = "<group>"; };
+		3F69E0831F4131F7001BA206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F69E08F1F4132CF001BA206 /* Jastor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jastor.swift; sourceTree = "<group>"; };
+		3F69E0911F413A4C001BA206 /* JastorRuntimeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JastorRuntimeHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F69E05B1F4131F4001BA206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F69E06F1F4131F7001BA206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F69E07A1F4131F7001BA206 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F69E0551F4131F4001BA206 = {
+			isa = PBXGroup;
+			children = (
+				3F69E0601F4131F4001BA206 /* JastorSwift */,
+				3F69E0751F4131F7001BA206 /* JastorSwiftTests */,
+				3F69E0801F4131F7001BA206 /* JastorSwiftUITests */,
+				3F69E05F1F4131F4001BA206 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F69E05F1F4131F4001BA206 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F69E05E1F4131F4001BA206 /* JastorSwift.app */,
+				3F69E0721F4131F7001BA206 /* JastorSwiftTests.xctest */,
+				3F69E07D1F4131F7001BA206 /* JastorSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F69E0601F4131F4001BA206 /* JastorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				3F69E0611F4131F4001BA206 /* AppDelegate.swift */,
+				3F69E0631F4131F4001BA206 /* ViewController.swift */,
+				3F69E0651F4131F4001BA206 /* Main.storyboard */,
+				3F69E0681F4131F4001BA206 /* Assets.xcassets */,
+				3F69E06A1F4131F5001BA206 /* LaunchScreen.storyboard */,
+				3F69E06D1F4131F5001BA206 /* Info.plist */,
+				3F69E08F1F4132CF001BA206 /* Jastor.swift */,
+				3F69E0911F413A4C001BA206 /* JastorRuntimeHelper.swift */,
+			);
+			path = JastorSwift;
+			sourceTree = "<group>";
+		};
+		3F69E0751F4131F7001BA206 /* JastorSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F69E0761F4131F7001BA206 /* JastorSwiftTests.swift */,
+				3F69E0781F4131F7001BA206 /* Info.plist */,
+			);
+			path = JastorSwiftTests;
+			sourceTree = "<group>";
+		};
+		3F69E0801F4131F7001BA206 /* JastorSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F69E0811F4131F7001BA206 /* JastorSwiftUITests.swift */,
+				3F69E0831F4131F7001BA206 /* Info.plist */,
+			);
+			path = JastorSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F69E05D1F4131F4001BA206 /* JastorSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F69E0861F4131F7001BA206 /* Build configuration list for PBXNativeTarget "JastorSwift" */;
+			buildPhases = (
+				3F69E05A1F4131F4001BA206 /* Sources */,
+				3F69E05B1F4131F4001BA206 /* Frameworks */,
+				3F69E05C1F4131F4001BA206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JastorSwift;
+			productName = JastorSwift;
+			productReference = 3F69E05E1F4131F4001BA206 /* JastorSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F69E0711F4131F7001BA206 /* JastorSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F69E0891F4131F7001BA206 /* Build configuration list for PBXNativeTarget "JastorSwiftTests" */;
+			buildPhases = (
+				3F69E06E1F4131F7001BA206 /* Sources */,
+				3F69E06F1F4131F7001BA206 /* Frameworks */,
+				3F69E0701F4131F7001BA206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F69E0741F4131F7001BA206 /* PBXTargetDependency */,
+			);
+			name = JastorSwiftTests;
+			productName = JastorSwiftTests;
+			productReference = 3F69E0721F4131F7001BA206 /* JastorSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F69E07C1F4131F7001BA206 /* JastorSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F69E08C1F4131F7001BA206 /* Build configuration list for PBXNativeTarget "JastorSwiftUITests" */;
+			buildPhases = (
+				3F69E0791F4131F7001BA206 /* Sources */,
+				3F69E07A1F4131F7001BA206 /* Frameworks */,
+				3F69E07B1F4131F7001BA206 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F69E07F1F4131F7001BA206 /* PBXTargetDependency */,
+			);
+			name = JastorSwiftUITests;
+			productName = JastorSwiftUITests;
+			productReference = 3F69E07D1F4131F7001BA206 /* JastorSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F69E0561F4131F4001BA206 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kangtaier;
+				TargetAttributes = {
+					3F69E05D1F4131F4001BA206 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3A93S74WC3;
+						ProvisioningStyle = Automatic;
+					};
+					3F69E0711F4131F7001BA206 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F69E05D1F4131F4001BA206;
+					};
+					3F69E07C1F4131F7001BA206 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F69E05D1F4131F4001BA206;
+					};
+				};
+			};
+			buildConfigurationList = 3F69E0591F4131F4001BA206 /* Build configuration list for PBXProject "JastorSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F69E0551F4131F4001BA206;
+			productRefGroup = 3F69E05F1F4131F4001BA206 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F69E05D1F4131F4001BA206 /* JastorSwift */,
+				3F69E0711F4131F7001BA206 /* JastorSwiftTests */,
+				3F69E07C1F4131F7001BA206 /* JastorSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F69E05C1F4131F4001BA206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F69E06C1F4131F5001BA206 /* LaunchScreen.storyboard in Resources */,
+				3F69E0691F4131F4001BA206 /* Assets.xcassets in Resources */,
+				3F69E0671F4131F4001BA206 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F69E0701F4131F7001BA206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F69E07B1F4131F7001BA206 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F69E05A1F4131F4001BA206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F69E0641F4131F4001BA206 /* ViewController.swift in Sources */,
+				3F69E0621F4131F4001BA206 /* AppDelegate.swift in Sources */,
+				3F69E0901F4132CF001BA206 /* Jastor.swift in Sources */,
+				3F69E0921F413A4C001BA206 /* JastorRuntimeHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F69E06E1F4131F7001BA206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F69E0771F4131F7001BA206 /* JastorSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F69E0791F4131F7001BA206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F69E0821F4131F7001BA206 /* JastorSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F69E0741F4131F7001BA206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F69E05D1F4131F4001BA206 /* JastorSwift */;
+			targetProxy = 3F69E0731F4131F7001BA206 /* PBXContainerItemProxy */;
+		};
+		3F69E07F1F4131F7001BA206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F69E05D1F4131F4001BA206 /* JastorSwift */;
+			targetProxy = 3F69E07E1F4131F7001BA206 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F69E0651F4131F4001BA206 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F69E0661F4131F4001BA206 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F69E06A1F4131F5001BA206 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F69E06B1F4131F5001BA206 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F69E0841F4131F7001BA206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F69E0851F4131F7001BA206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F69E0871F4131F7001BA206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3A93S74WC3;
+				INFOPLIST_FILE = JastorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kangtech.JastorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F69E0881F4131F7001BA206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3A93S74WC3;
+				INFOPLIST_FILE = JastorSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kangtech.JastorSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F69E08A1F4131F7001BA206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JastorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kangtech.JastorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JastorSwift.app/JastorSwift";
+			};
+			name = Debug;
+		};
+		3F69E08B1F4131F7001BA206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JastorSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kangtech.JastorSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JastorSwift.app/JastorSwift";
+			};
+			name = Release;
+		};
+		3F69E08D1F4131F7001BA206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JastorSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kangtech.JastorSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JastorSwift;
+			};
+			name = Debug;
+		};
+		3F69E08E1F4131F7001BA206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JastorSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.kangtech.JastorSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JastorSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F69E0591F4131F4001BA206 /* Build configuration list for PBXProject "JastorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F69E0841F4131F7001BA206 /* Debug */,
+				3F69E0851F4131F7001BA206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F69E0861F4131F7001BA206 /* Build configuration list for PBXNativeTarget "JastorSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F69E0871F4131F7001BA206 /* Debug */,
+				3F69E0881F4131F7001BA206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F69E0891F4131F7001BA206 /* Build configuration list for PBXNativeTarget "JastorSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F69E08A1F4131F7001BA206 /* Debug */,
+				3F69E08B1F4131F7001BA206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3F69E08C1F4131F7001BA206 /* Build configuration list for PBXNativeTarget "JastorSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F69E08D1F4131F7001BA206 /* Debug */,
+				3F69E08E1F4131F7001BA206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F69E0561F4131F4001BA206 /* Project object */;
+}
